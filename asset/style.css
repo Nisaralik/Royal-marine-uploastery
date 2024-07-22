@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Didot:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Didot", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --teamColor: #04e0ec;
+    --backgroundColor: #F7F7F7;
+    --headingColor: #0E1F51;
+}
+
+p {
+    line-height: 30px !important;
+    text-align: justify;
+}
+
+/* banner section css */
+
+.container-body img{
+      width: 100%;
+      height: 800px;
+    
+}
+
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 6px 100px;
+    z-index: 1000;
+
+
+}
+
+
+
+header.sticky {
+    padding: 10px 80px 1px 80px;
+   
+    box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.50);
+}
+
+header .logo {
+    position: relative;
+    color: var(--textColor);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav__list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.nav__item a {
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: 500;
+    transition: 0.6s;
+    color: white;
+    font-size: 14px
+}
+
+.nav__link {
+    padding: 10px;
+    color: #eeee;
+    font-weight: 600;
+}
+
+.nav__link:hover {
+    color: var(--teamColor);
+}
+
+.header__close,
+.header__toggle {
+    display: none;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: var(--textColor);
+}
+
+.nav__list a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav__list a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--teamColor);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav__list a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+
+.container h1{
+   bottom: 230px;
+    color: white;
+    position: absolute;
+    font-size: 75px;
+    font-family: "GFS Didot", serif;
+}
+.container p{
+    
+    color: white;
+    position: absolute;
+    bottom: 130px;
+    font-size: 18px;
+    font-weight:lighter;
+}
+.container h2{
+    color: #7DC5FA;
+    font-size: 20px;
+    width: 400px;
+    position: relative;
+    bottom: 12px;
+    left: 80px;
+}
+.container button{
+    width: 135px;
+    height: 37px;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+   position: relative;
+   bottom: 180px;
+}
+.rec-line{
+    width: 60px;
+    height: 1.5px;
+    background-color: #7DC5FA;
+    position: relative;
+    bottom: 600px;
+}
+.container-fluid-body{
+    background-color: #0E222C;
+    width: 100%;
+    height: 1030px;
+}
+
+/* about  section css */
+.about-section{
+    position: relative;
+    top: -40px;
+}
+.col-lg-6 img{
+    width: 700px;
+    height: 430px;
+    margin-top: 120px;
+}
+.rec-line1{
+    width: 60px;
+    height: 1.5px;
+    background-color: #7DC5FA;
+    position: relative;
+    top: 190px;
+    margin-left: 30px;
+}
+.rec-line1 h2{
+    color: #7DC5FA;
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+    margin-left: 10px;
+    
+}
+.rec-line1 h1{
+    font-size: 65px;
+    width: 400px;
+    position: relative;
+    top: 10px;
+}
+.rec-line1 p{
+    width: 470px;
+    text-align: justify;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    
+}
+.col-lg-3 h3{
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: "GFS Didot", serif;
+}
+.col-lg-3 img{
+    width: 26px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    position: relative;
+    left: 100px;
+}
+.col-lg-3 p{
+    font-size: 14px;
+    width: 290px;
+    position: relative;
+    text-align: justify;
+   top: 15px;
+
+}
+/* Product showcase section css */
+.product-showcase{
+    margin-top: 150px;
+}
+
+.product-showcase h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-family: "GFS Didot", serif;
+}
+.product-showcase p{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin-top: -20px;
+ 
+}
+.product-showcase img{
+    width: 615px;
+    height: 330px ;
+}
+.product-showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+/* Services section css */
+.services-sections{
+      margin-top: 160px;
+}
+.container-fluid-body1 h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: "GFS Didot", serif;
+    color: white;
+    position: relative;
+    top: 110px;
+}
+.container-fluid-body1 p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    top: 110px;
+}
+.container-fluid-body1{
+    width: 100%;
+    height: 1020px;
+    background-color: #0E222C;
+     
+    
+}
+.container-fluid-body1 .container .row p{
+    font-size: 14px;
+    text-align: justify;
+    position: relative;
+    top: -1px;
+
+}
+.container-fluid-body1 .container .row{
+    margin-top: 50px;
+}
+.gallery-section h1{
+    margin-top: 160px;
+    font-size: 45px;
+    font-family: "GFS Didot", serif;
+    text-align: center;
+
+
+}
+.gallery-section p{
+    text-align: center;
+    font-size: 16px;
+}
+.gallery-section img{
+  width: 400px;
+  height: 280px;
+  margin-top: 100px;
+}
+.shadow-div{
+    width: 400px;
+    height: 45px;
+    background-color: #191919;
+    opacity: 70%;
+    margin-top: -55px;
+}
+.shadow-div h4{
+    color: white;
+    font-size: 18px;
+    margin: 10px 13px;
+    position: relative;
+    top: 10px;
+}
