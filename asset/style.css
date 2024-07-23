@@ -137,11 +137,32 @@ header.sticky ul li a {
 
 
 .container h1{
-   bottom: 230px;
-    color: white;
+    position: relative;
+    margin: 0;
+    bottom: 230px;
+    color: rgb(255, 255, 255);
     position: absolute;
     font-size: 75px;
     font-family: "GFS Didot", serif;
+    z-index: 1;
+    overflow: hidden;
+}
+.conta h1::before{
+    content: "";
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%,#000 5%, #000 100%);
+    animation: 5.5s linear forwards ;
+}
+@keyframes animate {
+    0%{
+        left: 110%;
+    }
+    100%{
+        left: 20%;
+    }
 }
 .container p{
     
@@ -435,4 +456,171 @@ header.sticky ul li a {
     color: black;
     margin: 8px 9px;
 
+}
+.round1 {
+    width: 270px;
+    height: 270px;
+    background-color: #fff;
+    opacity: 12%;
+    border-radius: 100%;
+    position: relative;
+    left: 330px;
+    bottom: 130px;
+
+}
+.small-round1{
+    width: 128px;
+    height: 128px;
+    background-color: white;
+    border-radius: 100%;
+    opacity: 13%;
+    position: relative;
+    bottom: 420px;
+    left: 280px;
+    
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 60px;
+
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.input-row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    top: 100px;
+}
+
+
+.input-row1 label{
+    font-size: 12px;
+    width: 10900px;
+    position: relative;
+    left: 10px;
+
+}
+.input-row p{
+    color: #191919;
+    font-size: 14px;
+    
+}
+h4{
+    font-size: 14px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+.input-group1{
+    margin-top: 150px;
+}
+.btn button{
+    width: 205px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #011C2B;
+    position: relative;
+    top: 40px;
+    left:410px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+/*foter  section css */
+.footer-section1{
+    overflow: hidden;
+}
+
+.footer-section {
+    margin-top: 150px;
+    /* background-position: center; */
+    background-size: cover;
+    padding: 80px 0px 20px 0px;
+    background-color: #07081C;
+    width: 100%;
+    height: 480px;
+   
+   
+}
+.footer-details{
+    position: relative;
+    top: px;
+}
+
+.footer-section img {
+    height: 70px;
+    width: 140px;
+    position: relative;
+    bottom: 140px;
+}
+
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+ 
+}
+
+.footer-section p{
+    font-size: 13px;
+    font-weight: lighter;
+    position: relative;
+    left: 100px;
+    top: -150px;
+}
+
+.footer-section h5 {
+    color: #fff;
+    font-weight: 400;
+    margin-top:18px;
+}
+
+.footer-section ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-section ul li {
+    list-style: none;
+    color: #fff;
+    margin: 13px 0px 0px 0px;
+}
+
+.social-media {
+    display: flex;
+    color: #fff;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: -80px;
+    
+}
+
+.footer-nav  p{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 180px;
+    font-weight: 200;
+    position: relative;
+    left: 20px;
 }
