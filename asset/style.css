@@ -524,8 +524,7 @@ h4{
     font-size: 16px;
 
 }
-
-/*foter  section css */
+/*footer  section css */
 .footer-section1{
     overflow: hidden;
 }
@@ -543,14 +542,14 @@ h4{
 }
 .footer-details{
     position: relative;
-    top: px;
+   
 }
 
 .footer-section img {
     height: 70px;
     width: 140px;
     position: relative;
-    bottom: 140px;
+   
 }
 
 
@@ -566,8 +565,11 @@ h4{
     font-size: 13px;
     font-weight: lighter;
     position: relative;
-    left: 100px;
-    top: -150px;
+    color: var(--backgroundColor);
+    position: relative;
+    top: 10px;
+
+ 
 }
 
 .footer-section h5 {
@@ -591,26 +593,35 @@ h4{
     display: flex;
     color: #fff;
 }
-.line{
+.innerix{ 
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 1px;
     background-color: white;
-    margin-top: -80px;
+    margin-top: 80px;
     
 }
-
+.footer-social{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+}
+.footer-social i{ 
+  
+    color: #fff;
+}
 .footer-nav  p{
     display: flex;
     justify-content: center;
     color: #fff;
     font-size: 15px;
-    margin-top: 180px;
     font-weight: 200;
     position: relative;
     left: 20px;
+    top: 35px;
 }
-
-
 
 
 
@@ -1113,6 +1124,6 @@ h4{
  
 }
 
-
-
+    
+    
 }

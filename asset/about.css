@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Didot:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Didot", sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --teamColor: #04e0ec;
+    --backgroundColor: #F7F7F7;
+    --headingColor: #032e8c;
+}
+
+p {
+    line-height: 30px !important;
+    text-align: justify;
+}
+
+/* banner section css */
+
+.container-body img{
+      width: 100%;
+      height: 800px;
+    
+}
+
+
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 6px 100px;
+    z-index: 1000;
+
+
+}
+
+
+
+header.sticky {
+    padding: 10px 80px 1px 80px;
+   
+    box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.50);
+}
+
+header .logo {
+    position: relative;
+    color: var(--textColor);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.6s;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav__list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item {
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.nav__item a {
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: 500;
+    transition: 0.6s;
+    color: white;
+    font-size: 14px
+}
+
+.nav__link {
+    padding: 10px;
+    color: #eeee;
+    font-weight: 600;
+}
+
+.nav__link:hover {
+    color: var(--teamColor);
+}
+
+.header__close,
+.header__toggle {
+    display: none;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+    color: var(--textColor);
+}
+
+.nav__list a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.nav__list a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: var(--teamColor);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav__list a:hover:after {
+    width: 100%;
+    left: 0;
+}
+.heading h1{
+    color: white;
+    text-align: center;
+    position: relative;
+   bottom: 450px;
+   font-size: 65px;
+   font-family: "GFS Didot", serif;
+    
+}
+.heading p{
+    color: white;
+    text-align: center;
+    position: relative;
+   bottom: 450px;
+   font-size: 18px;
+
+}
+/*clients section css */
+.container-fluid-body2{
+    width: 100%;
+    height: 1410px;
+    background-color: #0E222C;
+    margin-top: 170px;
+}
+.container-fluid-body2 h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: "GFS Didot", serif;
+   position: relative;
+   top: 55px;
+
+}
+.small-rectangle{
+    display: grid; 
+    grid: auto auto / auto auto auto auto; 
+    grid-gap: 10px; 
+    padding: 10px; 
+    width: 400px;
+    height: 132px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+.small-rectangle img{
+    width: 155px;
+    height: 65px;
+    margin: 30px 110px;
+    
+}
