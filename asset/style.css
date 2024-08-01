@@ -838,7 +838,7 @@ h4{
         font-size: 35px;
         font-family: "GFS Didot", serif;
         z-index: 1;
-       top: 150px;
+        top: 130px;
     }
 
      .container p{
@@ -847,7 +847,7 @@ h4{
         position: absolute;
         font-size: 14px;
         font-weight:lighter;
-        top: 270px;
+        top: 250px;
         
     }
     .container h2{
@@ -913,6 +913,7 @@ h4{
         background-color: #7DC5FA;
         position: relative;
         top: 30px;
+        left: -30px;
        
     }
     .rec-line1 h2{
@@ -928,7 +929,7 @@ h4{
         width: 400px;
         position: relative;
         top: 10px;
-        left: -30px;
+        /* left: 30px; */
     }
     .rec-line1 p{
         width: 350px;
@@ -936,20 +937,22 @@ h4{
         font-size: 14px;
         position: relative;
         top: 10px;
-        left: -30px;
+        /* left: -30px; */
         
     }
     .container-fluid-body{
         
         background-color: #0E222C;
         width: 100%;
-        height: 1900px;
+        height: 1600px;
     }
     .col-lg-3 h3{
         color: white;
         font-size: 26px;
         margin-top: 20px;
         font-family: "GFS Didot", serif;
+     
+        
     }
     .col-lg-3 img{
         width: 26px;
@@ -957,34 +960,35 @@ h4{
         display: flex;
         justify-content: center;
         position: relative;
-        left: 100px;
         flex-direction: column;
         gap: 5px;
         object-fit: contain;
     }
     .col-lg-3 p{
         font-size: 14px;
-        width: 290px;
+        width:100%;
         position: relative;
-        text-align: justify;
+        text-align:justify;
         top: 15px;
     
     }
     .col-lg-3{
         position: relative;
-        top: 150px;
-        left: 30px;
-       
+        top: 250px;
+        margin-top: -100px;
+         /* left: 8%; */
+    
     }
 
     /* service section css */
 
 
-    .services-sections{
+.services-sections{
       margin-top: 50px;
 }
+
 .container-fluid-body1 h1{
-    font-size: 60px;
+    font-size: 35px;
     text-align: center;
     font-family: "GFS Didot", serif;
     color: white;
@@ -993,33 +997,41 @@ h4{
 }
 .container-fluid-body1 p{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     position: relative;
-    top: 110px;
+    width: 100%;
+ 
 }
 .container-fluid-body1{
     width: 100%;
-    height: 3600px;
+    height: 2250px;
     background-color: #0E222C;
      
     
 }
-.container-fluid-body1 .container .row p{
+.container-fluid-body1 .container .row {
     font-size: 14px;
     text-align: justify;
     position: relative;
-    top: -1px;
+    top: -150px;
+    
 
 }
+
 .container-fluid-body1 .container .row{
     margin-top: 50px;
 }
 
    /* gallery section css */
+.col-lg-4{
+    margin-top: -50px;
+    position: relative;
+    top: 30px;
+}   
 .gallery-section h1{
     margin-top: 160px;
-    font-size: 45px;
+    font-size: 35px;
     font-family: "GFS Didot", serif;
     text-align: center;
 
@@ -1034,6 +1046,13 @@ h4{
   height: 280px;
   position: relative;
   top: -80px;
+
+}
+.col-lg-6{
+   
+    position: relative;
+    margin-top: -20px;
+    top: 30px;
 }
 
 .shadow-div{
@@ -1053,11 +1072,14 @@ h4{
 }
 
  /* clients section css */
+ .client-section{
+    margin-top: -80px;
+ }
  .small-rectangle{
-    width: 350px;
+    width:100%;
     height: 132px;
     background-color: #fff;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .small-rectangle img{
     width: 155px;
@@ -1068,16 +1090,20 @@ h4{
 }
 .container-fluid-body2{
     width: 100%;
-    height: 1480px;
+    height: 1100px;
     background-color: #0E222C;
     margin-top: 170px;
 }
  /* contacts section css */
+ .contact-section{
+    position: relative;
+    top: -100px;
+ }
 .card{
     width: 100%;
     height: 645px;
     background-color: #0E222C;
-    margin-top: 55px;
+    margin-top: 30px;
 }
 .card h3{
     font-size: 24px;
@@ -1158,6 +1184,23 @@ h4{
     left: 20px;
 
  
+}
+input-row1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+    top: 100px;
+}
+
+
+.input-row1 label{
+    font-size: 10px;
+    width: 20900px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+
 }
 
 /* footer-section css */
