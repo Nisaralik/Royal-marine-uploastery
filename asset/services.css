@@ -29,9 +29,6 @@ p {
       height: 800px;
     
 }
-
-
-
 header {
     position: absolute;
     top: 0;
@@ -154,6 +151,7 @@ header.sticky ul li a {
 /* Product showcase section css */
 .product-showcase{
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .product-showcase h1{
@@ -217,7 +215,7 @@ header.sticky ul li a {
     padding: 80px 0px 20px 0px;
     background-color: #07081C;
     width: 100%;
-    height: 480px;
+    height: 450px;
    
    
 }
@@ -299,5 +297,206 @@ header.sticky ul li a {
     font-weight: 200;
     position: relative;
     left: 20px;
-    top: 35px;
+    top: 20px;
+} */
+
+
+
+@media all and (max-width:900px) {
+
+
+   
+}
+
+@media all and (max-width:700px) {
+    html, body {
+        overflow-x:hidden 
+      } 
+   
+    body {
+        overflow-x: hidden;
+    }
+
+    body.overflow-hidden {
+        overflow: hidden;
+    }
+
+    .logo img {
+        height: 35px;
+    }
+
+    header {
+        height: auto;
+        justify-content: space-between;
+        padding: 8px 20px 8px 20px;
+    }
+
+    .logo a {
+        font-size: 0.9rem;
+    }
+
+    .header__toggle {
+        display: inline;
+        color: #ffffffee;
+        font-size: 26px;
+        margin-left: -50px;
+        margin-top: -10px;
+    }
+
+    .header__close {
+        position: absolute;
+        right: 24px;
+        display: block;
+        font-size: 24px;
+        border-radius: 50%;
+        z-index: 1000;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: var(--headingColor);
+        color: #eeee;
+        width: 100%;
+        height: 100vh;
+        padding: 24px 0;
+        z-index: 1000;
+        transition: 0.5s;
+        border-radius: 0 0 0 0%;
+        z-index: 1000;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32%;
+    }
+
+    .show {
+        right: 0;
+    }
+
+    .nav__item {
+        margin: 1.5rem 0;
+    }
+
+    header.sticky {
+        padding: 8px 25px 8px 25px;
+        background: #fff;
+        box-shadow: 3px 4px 4px 0px rgba(214, 214, 214, 0.50);
+    }
+
+    br {
+        display: none !important;
+    }
+
+  /* banner-section css */
+    .image-sec img{
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+    }
+    .heading h1{
+        font-size: 35px;
+        margin-top: 100px;
+
+    }
+    .heading p{
+        font-size: 16px;
+        
+
+    }
+
+   /* service-section css */
+   .product-showcase{
+    margin-top: -200px;
+   }
+   .product-showcase h1{
+    font-size: 35px;
+    
+  
+   }
+   .product-showcase p{
+    font-size: 16px;
+   }
+
+
+
+  /* footer-section css */
+    .small-des{
+        background-color: white;
+        width: 100%;
+        height: 150px;
+        box-shadow: 3px 4px 4px 4px rgba(214, 214, 214, 0.50);
+       
+    }
+    .small-des h3{
+        font-size: 18px;
+        position: relative;
+        left: 10px;
+        top:5px;
+        
+    }
+    .small-des p{
+        font-size: 14px;
+        text-align: justify;
+        position: relative;
+        top: 10px;
+        padding: 10px;
+        line-height-step: normal;
+    }
+    /* footer-section css */
+    .footer-section {
+        margin-top: 50px;
+        background-image: url('images/home/footer-background.webp');
+        background-position: center;
+        background-size: cover;
+        padding: 40px 0px 20px 0px;
+        height: 800px;
+        }
+        
+        .footer-section img {
+        height: 45px;
+        margin-top: 30px;
+        }
+        .footer-section p{
+            position: relative;
+            top: -1px;
+        }
+        
+        .footer-section h5 {
+        color: #fff;
+        font-weight: 600;
+        position: relative;
+        top: 20px;
+        }
+        .footer-section a{
+            color: #fff;
+            position: relative;
+            top: 20px;
+    
+        }
+        .footer-section i{
+            position: relative;
+            top: 20px;
+        }
+        
+        .footer-line {
+        height: 0.5px;
+        width: 100%;
+        background-color: #a8a8a8;
+        margin-top: 30px;
+        }
+        
+        .footer-nav { 
+            margin-top: 30px;
+            }
+            
+            .footer-nav p {
+             font-size: 10px;
+             margin-left: -30px;
+            }
+    
+
 }

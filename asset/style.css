@@ -9,6 +9,9 @@
 body {
     font-family: "Didot", sans-serif;
     scroll-behavior: smooth;
+   
+
+  
 }
 
 :root {
@@ -24,9 +27,11 @@ p {
 
 /* banner section css */
 
+
 .container-body img{
       width: 100%;
       height: 800px;
+   
     
 }
 
@@ -43,6 +48,7 @@ header {
     transition: 0.6s;
     padding: 6px 100px;
     z-index: 1000;
+    overflow: hidden;
 
 
 }
@@ -135,7 +141,6 @@ header.sticky ul li a {
     left: 0;
 }
 
-
 .container h1{
     position: relative;
     margin: 0;
@@ -145,7 +150,7 @@ header.sticky ul li a {
     font-size: 75px;
     font-family: "GFS Didot", serif;
     z-index: 1;
-    overflow: hidden;
+   
 }
 
 
@@ -156,6 +161,7 @@ header.sticky ul li a {
     bottom: 130px;
     font-size: 18px;
     font-weight:lighter;
+   
 }
 .container h2{
     color: #7DC5FA;
@@ -182,9 +188,12 @@ header.sticky ul li a {
     bottom: 600px;
 }
 .container-fluid-body{
+    display: flex;
+    justify-content: center;
     background-color: #0E222C;
     width: 100%;
     height: 1030px;
+  
 }
 
 /* about  section css */
@@ -241,6 +250,7 @@ header.sticky ul li a {
     margin-top: 140px;
     position: relative;
     left: 100px;
+   
 }
 .col-lg-3 p{
     font-size: 14px;
@@ -269,8 +279,9 @@ header.sticky ul li a {
  
 }
 .product-showcase img{
-    width: 615px;
-    height: 330px ;
+    width: 100%;
+    height: 95% ;
+    overflow: hidden;
 }
 .product-showcase{
     display: flex;
@@ -281,7 +292,7 @@ header.sticky ul li a {
 }
 /* Services section css */
 .services-sections{
-      margin-top: 160px;
+      margin-top: 200px;
 }
 .container-fluid-body1 h1{
     font-size: 60px;
@@ -314,6 +325,7 @@ header.sticky ul li a {
 }
 .container-fluid-body1 .container .row{
     margin-top: 50px;
+    overflow: hidden;
 }
 .gallery-section h1{
     margin-top: 160px;
@@ -328,12 +340,13 @@ header.sticky ul li a {
     font-size: 16px;
 }
 .gallery-section img{
-  width: 400px;
+  width: 100%;
   height: 280px;
   margin-top: 100px;
+  overflow: hidden;
 }
 .shadow-div{
-    width: 400px;
+    width: 100%;
     height: 45px;
     background-color: #191919;
     opacity: 70%;
@@ -352,6 +365,7 @@ header.sticky ul li a {
     height: 590px;
     background-color: #0E222C;
     margin-top: 170px;
+
 }
 .container-fluid-body2 h1{
     text-align: center;
@@ -398,7 +412,7 @@ header.sticky ul li a {
     font-size: 18px;
     position: relative;
     left: 40px;
-    top: -30px;
+    color: #fff;
 }
 
 .des-icons i{
@@ -536,7 +550,7 @@ h4{
     padding: 80px 0px 20px 0px;
     background-color: #07081C;
     width: 100%;
-    height: 480px;
+    height: 450px;
    
    
 }
@@ -620,7 +634,7 @@ h4{
     font-weight: 200;
     position: relative;
     left: 20px;
-    top: 35px;
+    top: 20px;
 }
 
 
@@ -722,10 +736,11 @@ h4{
 
 
 @media all and (max-width:700px) {
+    html, body {
+        overflow-x:hidden 
+      } 
 
-  
-
-    body {
+     body {
         overflow-x: hidden;
     }
 
@@ -734,7 +749,7 @@ h4{
     }
 
     .logo img {
-        height: 40px;
+        height: 35px;
     }
 
     header {
@@ -751,22 +766,19 @@ h4{
         display: inline;
         color: #ffffffee;
         font-size: 26px;
-        position:relative;
-        left: -290px;
-     
+        margin-left: -50px;
+        margin-top: -10px;
        
     }
 
     .header__close {
-        position: relative;
+        position: absolute;
         right: 24px;
         display: block;
         font-size: 24px;
         border-radius: 50%;
         z-index: 1000;
-        color: #ffffff;
-        left: 50px;
-    
+        
     }
 
     .nav {
@@ -787,7 +799,7 @@ h4{
     .nav__list {
         display: flex;
         flex-direction: column;
-        margin-left: 22%;
+        margin-left: 32%;
     }
 
     .show {
@@ -807,13 +819,14 @@ h4{
     br {
         display: none !important;
     }
-   
 
+  
 
      /* banner section css */
      .image-sec img{
         width: 100%;
         height: 500px;
+       
      }
 
      .container h1{
@@ -825,7 +838,6 @@ h4{
         font-size: 35px;
         font-family: "GFS Didot", serif;
         z-index: 1;
-        overflow: hidden;
        top: 150px;
     }
 
@@ -863,7 +875,28 @@ h4{
         position: relative;
         top: -130px;
     }
-    /* about section css */
+    /* product section section css */
+    .product-showcase{
+        margin-top: 150px;
+    }
+    
+    .product-showcase h1{
+        font-size:35px;
+        text-align: center;
+        color: black;
+        font-family: "GFS Didot", serif;
+    }
+    .product-showcase p{
+        font-size: 16px;
+        text-align: center;
+        color: black;
+        margin-top: -20px;
+    }
+    .product-showcase img{
+        width: 100%;
+        height: 95% ;
+    }
+        /* about section css */
 
     .about-section{
         position: relative;
@@ -907,6 +940,7 @@ h4{
         
     }
     .container-fluid-body{
+        
         background-color: #0E222C;
         width: 100%;
         height: 1900px;
@@ -926,6 +960,7 @@ h4{
         left: 100px;
         flex-direction: column;
         gap: 5px;
+        object-fit: contain;
     }
     .col-lg-3 p{
         font-size: 14px;
@@ -1002,7 +1037,7 @@ h4{
 }
 
 .shadow-div{
-    width: 350px;
+    width:100%;
     height: 45px;
     background-color: #191919;
     opacity: 70%;
@@ -1028,6 +1063,7 @@ h4{
     width: 155px;
     height: 65px;
     margin: 30px 110px;
+    object-fit: contain;
     
 }
 .container-fluid-body2{
@@ -1052,8 +1088,8 @@ h4{
 .card p{
     font-size: 18px;
     position: relative;
-    left: 40px;
     top: -30px;
+   
 }
 
 .des-icons i{
@@ -1124,6 +1160,61 @@ h4{
  
 }
 
+/* footer-section css */
+
+.footer-section {
+    margin-top: 50px;
+    background-image: url('images/home/footer-background.webp');
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px 20px 0px;
+    height: 830px;
+    overflow: hidden;
+    }
+    
+    .footer-section img {
+    height: 45px;
+    margin-top: 30px;
+    }
+    .footer-section p{
+        position: relative;
+        top: -1px;
+    }
+    
+    .footer-section h5 {
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+    }
+    .footer-section a{
+        color: #fff;
+        position: relative;
+        top: 20px;
+
+    }
+    .footer-section i{
+        position: relative;
+        top: 20px;
+    }
+    
+    .footer-line {
+    height: 0.5px;
+    width: 100%;
+    background-color: #a8a8a8;
+    margin-top: 30px;
+    }
+    .footer-nav { 
+        margin-top: 10px;
+        }
+        
+        .footer-nav p {
+         font-size: 10px;
+         margin-left: -10px;
+        }
     
     
-}
+    }
+
+    
+    
