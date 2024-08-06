@@ -591,7 +591,6 @@ header.sticky ul li a {
     justify-content: center;
     position: relative;
     flex-direction: column;
-    gap: 5px;
     object-fit: contain;
 }
 .col-lg-3 p{

@@ -250,6 +250,7 @@ header.sticky ul li a {
     margin-top: 140px;
     position: relative;
     left: 100px;
+    object-fit: contain;
    
 }
 .col-lg-3 p{
