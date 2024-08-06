@@ -178,14 +178,14 @@ header.sticky ul li a {
     font-size: 20px;
     border: none;
    position: relative;
-   bottom: 180px;
+   bottom: 150px;
 }
 .rec-line{
     width: 60px;
     height: 1.5px;
     background-color: #7DC5FA;
     position: relative;
-    bottom: 600px;
+    bottom: 620px;
 }
 .container-fluid-body{
     display: flex;
