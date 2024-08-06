@@ -360,6 +360,11 @@ header.sticky ul li a {
 }
 /*clients section css */
 .container-fluid-body2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
     width: 100%;
     height: 590px;
     background-color: #0E222C;
