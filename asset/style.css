@@ -254,10 +254,9 @@ header.sticky ul li a {
 }
 .col-lg-3 p{
     font-size: 14px;
-    width: 290px;
     position: relative;
     text-align: justify;
-   top: 15px;
+    top: 15px;
 
 }
 /* Product showcase section css */
