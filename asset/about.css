@@ -182,7 +182,7 @@ header.sticky ul li a {
 } 
 
 /* about  section css */
-.about-section{
+/* .about-section{
     margin-top: 150px;
 }
 
@@ -301,7 +301,128 @@ header.sticky ul li a {
     text-align: justify;
    top: 15px;
 
-} 
+}  */
+  .about-section{
+    margin-top: 160px;
+  }
+.container h1{
+    position: relative;
+    margin: 0;
+    bottom: 200px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 75px;
+    font-family: "GFS Didot", serif;
+    z-index: 1;
+   
+}
+
+
+.container p{
+    
+    color: white;
+    position: absolute;
+    bottom: 110px;
+    font-size: 18px;
+    font-weight:lighter;
+   
+}
+.container h2{
+    color: #7DC5FA;
+    font-size: 20px;
+    width: 400px;
+    position: relative;
+    bottom: 12px;
+    left: 80px;
+}
+.container button{
+    width: 135px;
+    height: 37px;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+    position: relative;
+
+}
+.rec-line{
+    width: 60px;
+    height: 1.5px;
+    background-color: #7DC5FA;
+    position: relative;
+    bottom: 620px;
+}
+.container-fluid-body{
+    display: flex;
+    justify-content: center;
+    background-color: #0E222C;
+    width: 100%;
+    height: 1030px;
+  
+}
+
+.about-section{
+    position: relative;
+    top: -40px;
+}
+.col-lg-6 img{
+    width: 700px;
+    height: 430px;
+    margin-top: 120px;
+}
+.rec-line1{
+    width: 60px;
+    height: 1.5px;
+    background-color: #7DC5FA;
+    position: relative;
+    top: 190px;
+    margin-left: 30px;
+}
+.rec-line1 h2{
+    color: #7DC5FA;
+    font-size: 18px;
+    width: 400px;
+    position: relative;
+    margin-left: 10px;
+    
+}
+.rec-line1 h1{
+    font-size: 65px;
+    width: 400px;
+    position: relative;
+    top: 10px;
+}
+.rec-line1 p{
+    width: 470px;
+    text-align: justify;
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+    
+}
+.col-lg-3 h3{
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+    font-family: "GFS Didot", serif;
+}
+.col-lg-3 img{
+    width: 26px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    position: relative;
+    left: 100px;
+    object-fit: contain;
+   
+}
+.col-lg-3 p{
+    font-size: 14px;
+    position: relative;
+    text-align: justify;
+    top: 15px;
+
+}
 /*footer  section css */
  .footer-section1{
     overflow: hidden;
@@ -591,6 +712,7 @@ header.sticky ul li a {
     justify-content: center;
     position: relative;
     flex-direction: column;
+    gap: 5px;
     object-fit: contain;
 }
 .col-lg-3 p{
