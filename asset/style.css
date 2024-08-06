@@ -838,7 +838,7 @@ h4{
         font-size: 35px;
         font-family: "GFS Didot", serif;
         z-index: 1;
-        top: 130px;
+        top: -400px;
     }
 
      .container p{
@@ -847,7 +847,7 @@ h4{
         position: absolute;
         font-size: 14px;
         font-weight:lighter;
-        top: 250px;
+        top: -300px;
         
     }
     .container h2{
@@ -864,7 +864,7 @@ h4{
         font-size: 20px;
         border: none;
         position: absolute;
-        top: 400px;
+        top: -120px;
        
      
     }
@@ -873,7 +873,7 @@ h4{
         height: 1.5px;
         background-color: #7DC5FA;
         position: relative;
-        top: -130px;
+        top: -170px;
     }
     /* product section section css */
     .product-showcase{
@@ -912,7 +912,7 @@ h4{
         height: 1.5px;
         background-color: #7DC5FA;
         position: relative;
-        top: 30px;
+        top: 50px;
         left: -30px;
        
     }
