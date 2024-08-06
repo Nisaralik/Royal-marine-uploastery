@@ -168,7 +168,7 @@ header.sticky ul li a {
  
 }
 .product-showcase img{
-    width: 615px;
+    width: 100%;
     height: 330px ;
 }
 .product-showcase{
@@ -184,7 +184,7 @@ header.sticky ul li a {
 }
 .small-des{
     background-color: white;
-    width: 615px;
+    width:100%;
     height: 150px;
     box-shadow: 3px 4px 4px 4px rgba(214, 214, 214, 0.50);
    
