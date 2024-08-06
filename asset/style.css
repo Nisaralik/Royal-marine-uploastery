@@ -382,7 +382,6 @@ header.sticky ul li a {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    row-gap: 20px;
     width: 100%;
     height: 132px;
     background-color: #fff;
