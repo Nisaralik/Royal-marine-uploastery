@@ -177,8 +177,8 @@ header.sticky ul li a {
     background-color: #fff;
     font-size: 20px;
     border: none;
-   position: relative;
-   bottom: 150px;
+    position: relative;
+
 }
 .rec-line{
     width: 60px;
@@ -360,6 +360,9 @@ header.sticky ul li a {
 }
 /*clients section css */
 .container-fluid-body2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     height: 590px;
     background-color: #0E222C;
@@ -376,6 +379,9 @@ header.sticky ul li a {
 
 }
 .small-rectangle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     width: 400px;
     height: 132px;
     background-color: #fff;
@@ -532,7 +538,7 @@ h4{
     background-color: #011C2B;
     position: relative;
     top: 40px;
-    left:410px;
+    left:390px;
     color: #fff;
     font-size: 16px;
 
