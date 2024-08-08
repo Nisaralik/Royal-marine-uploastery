@@ -159,7 +159,7 @@ header.sticky ul li a {
     color: white;
     position: absolute;
     bottom: 100px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight:lighter;
    
 }
@@ -178,7 +178,7 @@ header.sticky ul li a {
     font-size: 20px;
     border: none;
     position: relative;
-    top: -200px;
+    top: -220px;
 
 }
 .rec-line{
