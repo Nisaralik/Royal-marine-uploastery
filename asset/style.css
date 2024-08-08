@@ -281,8 +281,9 @@ header.sticky ul li a {
 }
 .product-showcase img{
     width: 100%;
-    height: 95% ;
+    height: 330px ;
     overflow: hidden;
+    margin-top: -20px;
 }
 .product-showcase{
     display: flex;
@@ -290,6 +291,9 @@ header.sticky ul li a {
     justify-content: flex-start;
     flex-direction: column;
     gap: 20px;
+}
+.product-showcase h3{
+    margin: 17px 0px;
 }
 /* Services section css */
 .services-sections{
