@@ -858,7 +858,7 @@ h4{
         position: absolute;
         font-size: 14px;
         font-weight:lighter;
-        top: -300px;
+        top: -290px;
         
     }
     .container h2{
@@ -943,7 +943,7 @@ h4{
         /* left: 30px; */
     }
     .rec-line1 p{
-        width: 350px;
+        width: 330px;
         text-align: justify;
         font-size: 14px;
         position: relative;
