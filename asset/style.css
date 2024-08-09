@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Didot:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-    font-family: "Didot", sans-serif;
+    /* font-family: "Didot", sans-serif; */
     scroll-behavior: smooth;
    
 
@@ -349,6 +350,12 @@ header.sticky ul li a {
   height: 280px;
   margin-top: 100px;
   overflow: hidden;
+  transition: width 0.5s ease, height 0.5s ease
+}
+.gallery-section img:hover{
+   width: 500px;
+   height: 320px;
+
 }
 .shadow-div{
     width: 100%;
@@ -858,7 +865,7 @@ h4{
         position: absolute;
         font-size: 14px;
         font-weight:lighter;
-        top: -290px;
+        top: -280px;
         
     }
     .container h2{
@@ -968,13 +975,13 @@ h4{
     .col-lg-3 img{
         width: 26px;
         height: 30px;
-        display: flex;
-        justify-content: center;
+        /* margin-top: -5px; */
         position: relative;
-        flex-direction: column;
-        gap: 5px;
         object-fit: contain;
+        left: 1px;
+            
     }
+   
     .col-lg-3 p{
         font-size: 14px;
         width:100%;
@@ -1007,6 +1014,10 @@ h4{
     position: relative;
     top: 110px;
 }
+.container-fluid-body1 img h3{
+    text-align: center;
+
+}
 .container-fluid-body1 p{
     text-align: center;
     font-size: 16px;
@@ -1030,6 +1041,7 @@ h4{
     
 
 }
+
 
 .container-fluid-body1 .container .row{
     margin-top: 50px;
@@ -1217,6 +1229,22 @@ input-row1{
     left: 10px;
     top: 10px;
 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    width: 205px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #011C2B;
+    position: relative;
+    top: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    
+    
 }
 
 /* footer-section css */
