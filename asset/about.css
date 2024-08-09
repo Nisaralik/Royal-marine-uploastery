@@ -172,6 +172,9 @@ header.sticky ul li a {
 }
 
 .small-rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px; 
     width: 100%;
     height: 132px;
@@ -179,9 +182,11 @@ header.sticky ul li a {
     margin-top: 100px;
 }
 .small-rectangle img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 165px;
     height: 70px;
-    margin: 25px 110px;
     object-fit: contain;
     
 } 

@@ -422,7 +422,9 @@ header.sticky ul li a {
     font-size: 18px;
     position: relative;
     left: 40px;
+    top: -20px;
     color: #fff;
+    
 }
 
 .des-icons i{
@@ -543,7 +545,6 @@ h4{
     background-color: #011C2B;
     position: relative;
     top: 40px;
-    left:410px;
     color: #fff;
     font-size: 16px;
 
@@ -954,7 +955,7 @@ h4{
         
         background-color: #0E222C;
         width: 100%;
-        height: 1600px;
+        height: 2000px;
     }
     .col-lg-3 h3{
         color: white;
@@ -989,6 +990,7 @@ h4{
          /* left: 8%; */
     
     }
+   
 
     /* service section css */
 
@@ -1015,7 +1017,7 @@ h4{
 }
 .container-fluid-body1{
     width: 100%;
-    height: 2250px;
+    height: 1950px;
     background-color: #0E222C;
      
     
@@ -1086,15 +1088,19 @@ h4{
     margin-top: -80px;
  }
  .small-rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:100%;
     height: 132px;
     background-color: #fff;
     margin-top: 80px;
 }
 .small-rectangle img{
+    display: flex;
+    justify-content: center;
     width: 155px;
     height: 65px;
-    margin: 30px 110px;
     object-fit: contain;
     
 }
